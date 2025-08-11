@@ -1,0 +1,35 @@
+header{
+    text-align: center;
+    background-color: aqua;
+    margin:0px;
+
+}
+body{
+    padding:0px 0px 10px 0px;
+}
+span{
+    color: red;
+}
+div{
+    border:1px solid rgb(154, 149, 149);
+    padding:20px;
+    margin: 30px;
+}
+#img{
+    border:1px solid black;
+    display:block;
+}
+table{
+    border:1px solid black;
+    width:100%;
+    
+}
+th,td{
+         padding: 5px 50px 5px 50px;
+         text-align: center;
+         border:1px solid black;
+         border-collapse: collapse;
+}
+tr:hover{
+    background-color: rgb(180, 239, 239);
+}
