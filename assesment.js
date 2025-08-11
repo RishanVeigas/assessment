@@ -8,7 +8,7 @@
          u.appendChild(li);
       });
       document.getElementById("lbtn").addEventListener("click", ()=> {
-          document.body.style.backgroundColor="pink";
+          document.body.classList.toggle("as");
       })
 
       const gettable = document.getElementById("table");

@@ -10,6 +10,9 @@ body{
 span{
     color: red;
 }
+.as{
+    background-color: red;
+}
 div{
     border:1px solid rgb(154, 149, 149);
     padding:20px;
