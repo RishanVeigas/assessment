@@ -1,0 +1,7 @@
+CREATE TABLE student (id INTEGER , name VARCHAR, age INTEGER, course VARCHAR);
+INSERT INTO student (id,name,age,course) VALUES(2,"Ravi kumar",22,"Civil Engineering");
+INSERT INTO student (id,name,age,course) VALUES(3,"Rajesh Kanna",25,'Electronics');
+INSERT INTO student (id,name,age,course) VALUES(4,"Neha Verma",18,'Mechanical');
+INSERT INTO student (id,name,age,course) VALUES(5,"Vikas Gupta",26,'Information Technology');
+DELETE FROM student WHERE name="Ravi kumar" ;
+SELECT * FROM student;
