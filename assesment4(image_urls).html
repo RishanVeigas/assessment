@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{ 
+            
+            text-align: center;
+            background-color: black;
+            color:rgb(232, 210, 90);
+            padding:10px 0px 10px 0px; 
+        }
+        body{
+            background-color: rgb(243, 243, 163);
+            border-radius: 10px;
+        }
+        div img{
+            align-content: center;
+            background-color: rgb(173, 165, 165);
+            padding:30px;
+            border:5px solid rgb(0, 0, 0);
+            border-radius: 15px;
+            margin:20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Movies To Watch<h1>
+    <div id="images">
+    <img src=" https://via.assets.so/movie.png?id=5&q=95&w=360&h=360&fit=fill" placeholder="Movie Image">
+    </div>
+    <script>
+          for (let i=6;i<=14;i++){
+              const image=document.createElement("img");
+              image.src="https://via.assets.so/movie.png?id="+i+"&q=95&w=360&h=360&fit=fill";
+              document.getElementById("images").appendChild(image);
+          }
+    </script> 
+</body>
+</html>
